@@ -1,4 +1,4 @@
-package com.example.springaop_hw.aspect;
+package com.example.springaop_hw.aspects.aspectTimer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -14,10 +14,10 @@ import java.math.BigDecimal;
 @Aspect
 public class TimerAspect {
 
-    @Pointcut("@annotation(com.example.springaop_hw.aspect.Timer)")
+    @Pointcut("@annotation(com.example.springaop_hw.aspects.aspectTimer.Timer)")
     public void methodTimer() {}
 
-    @Pointcut("within(@com.example.springaop_hw.aspect.Timer *)")
+    @Pointcut("within(@com.example.springaop_hw.aspects.aspectTimer.Timer *)")
     public void classTimer() {}
 
     @Around("methodTimer() || classTimer()")

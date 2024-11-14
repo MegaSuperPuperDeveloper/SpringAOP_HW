@@ -1,4 +1,4 @@
-package com.example.springaop_hw.aspect;
+package com.example.springaop_hw.aspects.aspectTimer;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

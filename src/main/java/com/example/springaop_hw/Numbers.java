@@ -1,6 +1,6 @@
 package com.example.springaop_hw;
 
-import com.example.springaop_hw.aspect.Timer;
+import com.example.springaop_hw.aspects.aspectTimer.Timer;
 import org.springframework.stereotype.Component;
 
 @Component

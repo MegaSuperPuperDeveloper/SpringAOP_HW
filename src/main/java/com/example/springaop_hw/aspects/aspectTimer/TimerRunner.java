@@ -1,4 +1,4 @@
-package com.example.springaop_hw.aspect;
+package com.example.springaop_hw.aspects.aspectTimer;
 
 import com.example.springaop_hw.Numbers;
 import lombok.AllArgsConstructor;
